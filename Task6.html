@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            width: 30%;
+
+            margin-top: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid black;
+        }
+
+        th, td {
+            border: double black;
+        }
+        th {
+            background-color: skyblue;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td><label for="sex">Sex</label></td>
+                <td><input type="radio" id="male" name="sex" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="sex" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="eyecolor">Eye Color</label></td>
+                <td><select id="eyecolor" name="eyecolor">
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="brown">Brown</option>
+                </select>
+                    </td>
+            </tr>
+            <tr>
+                <td><label for="bodytype">Check all that apply</label></td>
+                <td><input type="checkbox" id="6footplus" name="bodytype" value="6footplus">
+                    <label for="6footplus">Over 6 foot</label><br>
+                    <input type="checkbox" id="200poundsplus" name="bodytype" value="200poundsplus">
+                    <label for="200poundsplus">Over 200 Pounds</label>
+                </td>
+            </tr>
+            <tr >
+                <td colspan="2" rowspan="3"><label for="athleticability">Describe Your Athletic Ability:</label><br>
+                <textarea id="athleticability" rows="3" cols="80"></textarea>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr><td colspan="2" style="text-align: center;"><input type="submit" value="Enter my Information"></td>
+                </tr>
+    
+        </table>
+    </form>
+</body>
+
+</html>
