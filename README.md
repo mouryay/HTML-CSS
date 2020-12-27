@@ -1,1 +1,1 @@
-Just some Practive problems like building forms, landing pages etc
+Just some practice problems like building forms, landing pages etc
